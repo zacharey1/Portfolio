@@ -14,6 +14,7 @@
 }
 
 .modal {
+    display: flex;
     width: 375px;
     margin: 15% auto auto;
     position: relative;

@@ -5,9 +5,13 @@ const modalImg = document.querySelector(".modal-img");
 
 function displayModal () {
     overlay.classList.remove("hidden");
-    // modalImg.src = "cardImg.src";
+    modalImg.src = "cardImg.src";
 }
 
 cardImg.addEventListener('click', e => {
     displayModal();
+})
+
+modalClose.addEventListener('click', e => {
+    overlay.classList.add("hidden");  
 })
