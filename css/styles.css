@@ -14,10 +14,15 @@
     height: 100%;
 }
 
+.btn {
+    position: relative;
+}
+
 .modal {
     display: flex;
     width: 65%;
     height: fit-content;
+    max-height: 500px;
     margin: 15% auto auto;
     position: relative;
     text-align: center;
