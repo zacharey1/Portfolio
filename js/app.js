@@ -11,7 +11,7 @@ cardImg.forEach(
     img => {
         img.addEventListener('click', e => {
             displayModal();
-         
+            modalImg.src = e.target.src;
         })
     }
 )
