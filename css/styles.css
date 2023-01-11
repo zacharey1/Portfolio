@@ -14,6 +14,9 @@
 
 .overlay {
     position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 0;
     left: 0;
     right: 0;
@@ -25,12 +28,10 @@
 
 .modal {
     display: flex;
-    width: 65%;
+    position: relative;
     height: fit-content;
+    width: 65%;
     max-height: 500px;
-    margin: 15% auto auto;
-    position: fixed;
-    left: 17%;
     text-align: center;
     background: #fff;
     border: 1px solid #778;
